@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0" url="https://pedestrian-sos.000webhostapp.com/">
+<a href="https://pedestrian-sos.000webhostapp.com/">ps</a>

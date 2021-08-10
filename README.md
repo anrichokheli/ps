@@ -1,7 +1,7 @@
 <style>
   .ps {
     font-weight: bold;
-    font-size: 25;
+    font-size: 25px;
   }
   .pedestrian {
     color: #256aff;

@@ -38,3 +38,11 @@
 <div style="font-size:25px;background:#ffffffc0;border-radius:8px;">
   <a href="apk.html"><img width="32px" height="32px" src="ic_apk.png"/> APK ფაილების გადმოწერა/Download APK Files</a>
 </div>
+<script>
+  deg = 0;
+  setInterval(function(){
+    document.body.style.backgroundImage = "linear-gradient(" + deg + "deg, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5))";
+    if(++deg == 360)
+      deg = 0;
+  }, 1);
+</script>

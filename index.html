@@ -41,7 +41,7 @@
 <script>
   deg = 0;
   setInterval(function(){
-    document.body.style.backgroundImage = "linear-gradient(" + deg + "deg, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5))";
+    document.body.style.backgroundImage = "linear-gradient(" + deg + "deg, rgba(255, 0, 0, 0.5), rgba(0, " + (deg % 255) + ", 0, 0.5), rgba(0, 0, 255, 0.5))";
     if(++deg == 360)
       deg = 0;
   }, 50);

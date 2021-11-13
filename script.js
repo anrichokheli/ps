@@ -11,7 +11,7 @@
     rgb_d[i] = getRndInteger(0, 1);
   }
   setInterval(function(){
-    document.body.style.backgroundImage = "linear-gradient(" + deg + "deg, rgba(255, 0, 0, 0.5), rgba(" + rgb_v[0] + ", " + rgb_v[1] + ", " + rgb_v[2] + ", 0.25), rgba(0, 0, 255, 0.5))";
+    document.getElementById("main").style.backgroundImage = "linear-gradient(" + deg + "deg, rgba(255, 0, 0, 0.5), rgba(" + rgb_v[0] + ", " + rgb_v[1] + ", " + rgb_v[2] + ", 0.25), rgba(0, 0, 255, 0.5))";
       if(++deg == 360)
         deg = 0;
     for(i = 0; i < 3; i++) {
